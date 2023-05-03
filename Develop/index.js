@@ -7,6 +7,7 @@ const { error } = require("console");
 
 // TODO: Create an array of questions for user input
 const questions = [
+  //the questions that I used for my application
   {
     type: "input",
     message: "What is the title for your project?",

@@ -29,6 +29,7 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  //uses template literals to get the data provided by the use in the terminal
   return `# ${data.title} ${renderLicenseBadge(
     data.license.split(" ").join("")
   )}
@@ -77,3 +78,4 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
+//exports the function so it can be used in other files
